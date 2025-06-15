@@ -2148,7 +2148,37 @@
   background-image: url('../images/Group-26-5.png'), linear-gradient(#958c70, #958c70);
   background-position: 0 0, 0 0;
   background-size: auto, auto;
+    
 }
+.section-17 {
+  background-image: linear-gradient(18deg, #193b5be8 17%, #ffffff70), url('../images/landscape-1.jpg');
+  background-position: 0 0, 0 0;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  height: 100vh;
+  position: relative;
+}
+
+.section-17.meat {
+  background-image: linear-gradient(#00000080, #00000080), url('../images/meat.jpg');
+  background-position: 0 0, 0 0;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  height: 120vh;
+}
+
+.section-18 {
+  background-image: linear-gradient(#1b4c6e, #1b4c6e);
+  height: 100vh;
+  position: relative;
+}
+
+.section-18.meat {
+  background-image: linear-gradient(#00000080, #00000080), url('../images/Group-11-min-p-2600 (1).jpg'), linear-gradient(#844847, #844847);
+  background-position: 0 0, 50%, 0 0;
+  background-size: auto, cover, auto;
+}
+
 
 .left-arrow {
   justify-content: center;
@@ -3513,5 +3543,3 @@
     height: 160px;
   }
 }
-
-
